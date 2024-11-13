@@ -1,0 +1,28 @@
+/* styles.css */
+.blink {
+    animation: blink-animation 0.5s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+.wider-input {
+    width: 70%; /* Adjust as necessary */
+}
+@keyframes blink {
+    0% {
+      background-color: #ffcccb;
+    }
+    50% {
+      background-color: #ff6347;
+    }
+    100% {
+      background-color: #ffcccb;
+    }
+  }
+  
+  .animate-blink {
+    animation: blink 0.5s ease-in-out 3;
+  }
